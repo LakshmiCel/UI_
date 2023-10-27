@@ -1,0 +1,91 @@
+.container-fluid{
+    /* color:white  ; */
+    margin: 0px !important;
+    padding:0px !important;
+    /* width:100vw !important; */
+    /* --bs-gutter-x: 0.0rem !important;*/
+}
+.img-fluid{
+    height:75vh !important;
+    width: 100vw !important;
+}
+.display-4{
+    font-size: 7rem !important;
+    letter-spacing: -0.3rem !important;
+}
+p.text-light{
+    letter-spacing: 0.25rem !important;
+}
+.card-footer
+{
+    margin: 0px !important;
+    width:100%;
+    height:10rem;
+}
+.btn{
+    color: #ffffff !important;
+   letter-spacing: 0.3rem !important;
+   font-weight: 500!important;
+   border-radius: 0px !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-width: 250px) {
+    img{
+        transform: scale(1.2);
+        height:95vh !important;
+        width:100vw!important;
+        /* overflow-x: hidden !important; */
+    }
+
+    .container-fluid>.position-absolute {
+        top: 10% !important;
+        left: 5vw!important;
+        bottom: 40vh;
+        /* width: auto !important; */
+        line-height: 10px;
+        transform: scale(70%);
+        /* height: 100vh !important;*/
+    }
+    .col-md-auto>.fw-bolder{
+        font-size: 3.5rem!important;
+        font-weight: 500 !important;
+        letter-spacing: 0.1em !important;
+    }
+    .col-md-auto>.text-light{
+        font-size: 2rem!important;
+        font-weight: 500 !important;
+        letter-spacing: 0.1em !important;
+    }
+    .card-footer{
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:1280px) {
+    .container-fluid{
+        /* transform: scaleX(1.3); */
+        height:auto !important;
+        width:100vw!important;
+        
+    }
+    .container-fluid>.position-absolute{
+        top:20% !important;
+        left:40%!important;
+    }
+    .col-md-auto>.fw-bolder{
+        font-size: 4.5rem!important;
+        font-weight: 500 !important;
+        letter-spacing: 0.1em !important;
+    }
+    .col-md-auto>.text-light{
+        font-size: 2rem!important;
+        font-weight: 500 !important;
+        letter-spacing: 0.1em !important;
+    }
+    .card-footer{
+        width:auto !important;
+        height:auto !important;
+    }
+}

@@ -1,0 +1,53 @@
+.img-fluid{
+    width:100vw !important;
+    height:150vh !important;
+}
+.position-absolute{
+    top: 70vh !important;
+    right:7vw !important;
+    height:80vh !important;
+
+}
+.bg-dark{
+    height:auto !important;
+    padding:10px 10px 20px 10px
+}
+@media only screen and (max-width:480px) and (min-width:250px){
+   .img-fluid{
+    height: 100vh !important;
+   }
+    .bg-dark{
+        top:40vh !important;
+        right: 25% !important; 
+        left:25% !important;
+        height:auto !important;
+    }
+    .position-relative>.display-2{
+        /* padding:1px !important; */
+        font-size: 1.7rem !important;
+    }
+    .position-relative>.h5,.position-relative>.h6,.fw-bold{
+        font-size: 0.8rem !important;
+        padding:2px !important
+    }
+    .position-relative{
+        gap: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+    .position-relative>.btn{
+        width:30vw !important;
+        font-size: 10px !important;
+        padding:3px !important;
+        height: 10% !important;
+        margin-top:1px!important;
+    }
+    .card-footer{
+        font-size:1rem !important;
+       margin: 70% !important;
+    }
+    .position-absolute>.position-relative{
+        padding-top:10%!important;
+    }
+}
+
